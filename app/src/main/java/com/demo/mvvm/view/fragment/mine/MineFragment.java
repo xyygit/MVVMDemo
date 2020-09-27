@@ -15,13 +15,11 @@ import com.demo.mvvm.databinding.FrgmentMineBinding;
 /**
  * 主界面 - 我的Fragment
  */
-
 public class MineFragment extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         FrgmentMineBinding binding = DataBindingUtil.inflate(inflater, R.layout.frgment_mine, container, false);
-
         return binding.getRoot();
     }
 }
