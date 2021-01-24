@@ -55,5 +55,7 @@ public class MainActivity extends BaseActivity {
         //默认选中的Tab
         binding.tbBottomMain.getTabAt(0).getCustomView().setSelected(true);
 
+        //this is dev1 commit
+
     }
 }
