@@ -56,6 +56,7 @@ public class MainActivity extends BaseActivity {
         binding.tbBottomMain.getTabAt(0).getCustomView().setSelected(true);
 
         //this is dev1 commit
+        //验证成功dev remote
 
     }
 }
